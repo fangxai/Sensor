@@ -24,27 +24,27 @@ data class UISensor(
     /**
      * Name of the sensor.
      */
-    @StringRes
+    @param:StringRes
     val name: Int,
     /**
      * Unit of measurement for the sensor.
      */
-    @StringRes
+    @param:StringRes
     val unit: Int,
     /**
      * Description of the sensor.
      */
-    @StringRes
+    @param:StringRes
     val info: Int,
     /**
      * The color for the sensor.
      */
-    @ColorRes
+    @param:ColorRes
     val color: Int,
     /**
      * The icon for the sensor.
      */
-    @DrawableRes
+    @param:DrawableRes
     val icon: Int
 ) {
     /**

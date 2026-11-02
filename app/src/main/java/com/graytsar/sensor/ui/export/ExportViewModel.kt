@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalCoroutinesApi::class)
+
 package com.graytsar.sensor.ui.export
 
 import android.content.ContentValues
@@ -17,6 +19,7 @@ import com.graytsar.sensor.repository.entity.RecordEntity
 import com.graytsar.sensor.repository.repository.RecordRepository
 import com.graytsar.sensor.repository.repository.SessionRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.flatMapLatest

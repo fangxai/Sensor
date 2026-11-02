@@ -1,6 +1,6 @@
 [versions]
 agp = "9.5.0"
-kotlinGradlePlugin = "2.4.21"
+kotlin = "2.4.21"
 ksp = "2.3.13"
 googleServices = "4.5.0"
 hilt = "2.60.1"
@@ -24,7 +24,7 @@ espressoCore = "3.7.0"
 firebaseCrashlyticsPlugin = "3.0.8"
 
 [libraries]
-kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 
 androidx-core = { module = "androidx.core:core", version.ref = "core" }
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
